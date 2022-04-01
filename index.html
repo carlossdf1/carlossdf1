@@ -14,28 +14,51 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg text-light" id="navbar">
-        <a class="navbar-brand" href="index.html">
-            <img src="img/icon/esfer.png" height="30" alt="INICIO">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="sobremi.html">SOBRE MI</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portafolio.html">PORTAFOLIO</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">CONTACTO</a>
-                </li>
-            </ul>
-            <span class="navbar-text">
-            </span>
+    <nav class="navbar navbar-expand-lg navbar-dark text-light" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/icon/esfer.png" height="30" alt="INICIO">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="sobremi.html">SOBRE MI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portafolio.html">PORTAFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">CONTACTO</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2 bg-dark" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <!-- <span class="navbar-text">
+                </span> -->
+            </div>
         </div>
     </nav>
 
@@ -58,13 +81,17 @@
                     <div class="col-6">
                         <div class="row row-cols-5 justify-content-center">
                             <div class="col">
-                                <a href="https://github.com/carlossdf1"><img id="icon" src="img/icon/41-github.png" alt="GitHub"></a>
+                                <a href="https://github.com/carlossdf1"><img id="icon" src="img/icon/41-github.png"
+                                        alt="GitHub"></a>
                             </div>
                             <div class="col">
-                                <a href="mailto:carlos.sdf1@gmail.com"><img id="icon" src="img/icon/67-gmail.png" alt="Gmail"></a>
+                                <a href="mailto:carlos.sdf1@gmail.com"><img id="icon" src="img/icon/67-gmail.png"
+                                        alt="Gmail"></a>
                             </div>
                             <div class="col">
-                                <a href="https://api.whatsapp.com/send?phone=56961096743&text=Hola%2C+me+gustar%C3%ADa+m%C3%A1s+informaci%C3%B3n+sobre+tu+trabajo&_fb_noscript=1"><img id="icon" src="img/icon/Whatsapp-icon.png" alt=""></a>
+                                <a
+                                    href="https://api.whatsapp.com/send?phone=56961096743&text=Hola%2C+me+gustar%C3%ADa+m%C3%A1s+informaci%C3%B3n+sobre+tu+trabajo&_fb_noscript=1"><img
+                                        id="icon" src="img/icon/Whatsapp-icon.png" alt=""></a>
                             </div>
                             <div class="col">
                                 <a href=""><img id="icon" src="img/icon/03-twitter.png" alt=""></a>
@@ -103,8 +130,8 @@
         <div class="p-1"></div>
 
         <div class="row row-cols-1 row-cols-md-5 g-5" id="">
-            <div class="col" id="">
-                <div class="card text-white bg-transparent">
+            <div class="col">
+                <div id="proyectos" class="card text-white bg-transparent">
                     <div class="card-header border-info border-success">LENGUAJES</div>
                     <div class="card-body">
                         <p class="card-text">Javascript</p>
@@ -114,8 +141,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col" id="">
-                <div class="card text-white bg-transparent">
+            <div class="col">
+                <div id="proyectos" class="card text-white bg-transparent">
                     <div class="card-header border-info">FRAMEWORKS</div>
                     <div class="card-body">
                         <p class="card-text">Bootstrap</p>
@@ -127,8 +154,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col" id="">
-                <div class="card text-white bg-transparent">
+            <div class="col">
+                <div id="proyectos" class="card text-white bg-transparent">
                     <div class="card-header border-info">BASES DE DATOS</div>
                     <div class="card-body">
                         <p class="card-text">MongoDB</p>
@@ -138,8 +165,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col" id="">
-                <div class="card text-white bg-transparent">
+            <div class="col">
+                <div id="proyectos" class="card text-white bg-transparent">
                     <div class="card-header border-info">HERRAMIENTAS</div>
                     <div class="card-body">
                         <p class="card-text">Git</p>
@@ -149,8 +176,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col" id="">
-                <div class="card text-white bg-transparent">
+            <div class="col">
+                <div id="proyectos" class="card text-white bg-transparent">
                     <div class="card-header border-info">IDES</div>
                     <div class="card-body">
                         <p class="card-text">VS Code</p>
@@ -174,7 +201,8 @@
                     <img src="img/thumbnail/thumbnail-meteorologia.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Meteorologia Chile</h5>
-                        <p class="card-text">Consulta a la Api de meteorologia de Chile, la actulizacion diaria de todas las estaciones a lo largo de Chile</p>
+                        <p class="card-text">Consulta a la Api de meteorologia de Chile, la actulizacion diaria de todas
+                            las estaciones a lo largo de Chile</p>
                         <a href="view/meteorologia/index.html" class="btn btn-primary">Ver</a>
                     </div>
                     <div class="card-footer bg-gradient">
@@ -187,7 +215,8 @@
                     <img src="img/thumbnail/thumbnail-picky.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Picky🔎</h5>
-                        <p class="card-text">Starpage personalizable que utiliza los favoritos para buscar directamente en ellos</p>
+                        <p class="card-text">Starpage personalizable que utiliza los favoritos para buscar directamente
+                            en ellos</p>
                         <a href="https://carlossdf1.github.io/Picky/" class="btn btn-primary">Ver</a>
                     </div>
                     <div class="card-footer bg-gradient">
