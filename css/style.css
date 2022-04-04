@@ -9,7 +9,7 @@ body{
     height: 100%;
     /* display: flex;
     flex-direction: column; */
-    background: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)), url(../img/background/cerro-lofi.jpg) no-repeat fixed bottom center / cover;
+    background: linear-gradient(rgba(0,0,0,0.20),rgba(0,0,0,0.20)), url(../img/background/cerro-lofi.webp) no-repeat fixed bottom center / cover;
     /* background: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)), url(../img/background/cerro.jpg) no-repeat fixed bottom center / cover; */
 }
 
