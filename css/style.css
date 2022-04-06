@@ -9,7 +9,8 @@ body{
     height: 100%;
     /* display: flex;
     flex-direction: column; */
-    background: url(../img/background/fondo-blur-4.jpg) no-repeat fixed bottom center;
+    background: linear-gradient(rgba(0,0,0,0.20),rgba(0,0,0,0.20)), url(../img/background/cerro-lofi.webp) no-repeat fixed bottom center / cover;
+    /* background: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)), url(../img/background/cerro.jpg) no-repeat fixed bottom center / cover; */
 }
 
 .navbar ul li{
@@ -45,13 +46,25 @@ body{
 .navbar{
     /* background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)); */
     position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+nav input{
+    height: 36px;
+}
+
+nav{
+    background: rgba(0,0,0,0.75);
+    height: 6%;
 }
 
 .banner{
     width: 100%;
     height: 100vh;
     /* background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/img/fondo-blur-4.jpg); */
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0,0,0,0.75));
+    backdrop-filter: blur(12px);
     background-size: cover;
     background-position: center;
 }
@@ -163,6 +176,10 @@ button:hover{
     align-items: center; */
 }
 
+.flecha{
+    filter: invert(100%);
+}
+
 .row-cols-5>* {
     flex: 0 0 20%;
     max-width: none;
@@ -187,6 +204,12 @@ button:hover{
     position: relative; */
     /* filter: blur(1px); */
     filter: brightness(200%);
+}
+
+#proyectos{
+    /* background: rgba(0,0,0,0.9); */
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0, 0, 0, 0));
+    backdrop-filter: blur(12px);
 }
 
 /* .row-cols-5>* {
